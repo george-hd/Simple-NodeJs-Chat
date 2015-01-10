@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="https://github.com/george-hd/SimpleNodeJsChat.git" uploadOnCheckin="41162eaf-5f65-45ed-a64f-bb88dac50787">
+    <serverData>
+      <paths name="https://github.com/george-hd/SimpleNodeJsChat.git">
+        <serverdata>
+          <mappings>
+            <mapping deploy="https://github.com/george-hd/SimpleNodeJsChat.git" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="https://github.com/george-hd/SimpleNodeJsChat.git" />
+  </component>
+</project>

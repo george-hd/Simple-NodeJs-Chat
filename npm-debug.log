@@ -1,0 +1,91 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'expres.js',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.13.0-pre
+4 warn package.json chatForGitHub@1.0.0 No description
+5 warn package.json chatForGitHub@1.0.0 No repository field.
+6 warn package.json chatForGitHub@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'expres.js', null ]
+9 verbose cache add name=undefined spec="expres.js" args=["expres.js",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'expres.js',
+10 verbose parsed url   path: 'expres.js',
+10 verbose parsed url   href: 'expres.js' }
+11 silly lockFile 05c0c2cb-expres-js expres.js
+12 verbose lock expres.js /root/.npm/05c0c2cb-expres-js.lock
+13 silly lockFile 05c0c2cb-expres-js expres.js
+14 silly lockFile 05c0c2cb-expres-js expres.js
+15 verbose addNamed [ 'expres.js', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 6f6f85df-expres-js expres.js@
+18 verbose lock expres.js@ /root/.npm/6f6f85df-expres-js.lock
+19 silly addNameRange { name: 'expres.js', range: '*', hasData: false }
+20 verbose request where is /expres.js
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 46cd28765063ee02
+23 verbose url raw /expres.js
+24 verbose url resolving [ 'https://registry.npmjs.org/', './expres.js' ]
+25 verbose url resolved https://registry.npmjs.org/expres.js
+26 verbose request where is https://registry.npmjs.org/expres.js
+27 info trying registry request attempt 1 at 20:34:25
+28 http GET https://registry.npmjs.org/expres.js
+29 http 404 https://registry.npmjs.org/expres.js
+30 verbose headers { date: 'Thu, 08 Jan 2015 18:34:26 GMT',
+30 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 verbose headers   'content-type': 'application/json',
+30 verbose headers   'cache-control': 'max-age=0',
+30 verbose headers   'content-length': '52',
+30 verbose headers   'accept-ranges': 'bytes',
+30 verbose headers   via: '1.1 varnish',
+30 verbose headers   age: '0',
+30 verbose headers   'x-served-by': 'cache-ams4131-AMS',
+30 verbose headers   'x-cache': 'MISS',
+30 verbose headers   'x-cache-hits': '0',
+30 verbose headers   'x-timer': 'S1420742065.681161,VS0,VE687',
+30 verbose headers   connection: 'close' }
+31 silly registry.get cb [ 404,
+31 silly registry.get   { date: 'Thu, 08 Jan 2015 18:34:26 GMT',
+31 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=0',
+31 silly registry.get     'content-length': '52',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     'x-served-by': 'cache-ams4131-AMS',
+31 silly registry.get     'x-cache': 'MISS',
+31 silly registry.get     'x-cache-hits': '0',
+31 silly registry.get     'x-timer': 'S1420742065.681161,VS0,VE687',
+31 silly registry.get     connection: 'close' } ]
+32 silly lockFile 6f6f85df-expres-js expres.js@
+33 silly lockFile 6f6f85df-expres-js expres.js@
+34 error 404 404 Not Found: expres.js
+34 error 404
+34 error 404 'expres.js' is not in the npm registry.
+34 error 404 You should bug the author to publish it
+34 error 404 It was specified as a dependency of 'chatForGitHub'
+34 error 404
+34 error 404 Maybe try 'npm search expres'
+34 error 404
+34 error 404 Note that you can also install from a
+34 error 404 tarball, folder, or http url, or git url.
+35 error System Linux 3.13.0-43-generic
+36 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "expres.js" "--save"
+37 error cwd /var/www/html/chatForGitHub
+38 error node -v v0.13.0-pre
+39 error npm -v 1.4.28
+40 error code E404
+41 verbose exit [ 1, true ]

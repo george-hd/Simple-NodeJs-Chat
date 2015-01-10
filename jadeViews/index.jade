@@ -1,0 +1,19 @@
+doctype html
+head
+   title chat
+   link(rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.0/css/bootstrap.min.css")
+   link(rel='stylesheet', href='/css/default.css')
+   script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js")
+body
+   div#chat-container.row
+      div#users.col-md-2
+         each user in JSON.parse(users)
+            li(id=user)= user['userName']
+      div#mess.col-md-10
+         ul#messages
+      form(action="",id="chat-input")
+         input#m(autocomplete='off')
+         button send
+script(src='https://cdn.socket.io/socket.io-1.2.0.js')
+//script(src='http://code.jquery.com/jquery-1.11.1.js')
+script(src='/js/myjs.js')
